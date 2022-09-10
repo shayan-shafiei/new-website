@@ -1,0 +1,58 @@
+.headimg{
+    width: 400px;
+    height: 100px;
+
+}
+.maintable,td{
+    border: solid 2px black;
+    
+}
+td{
+    padding:5px;
+    text-align:center;
+   }
+   .maintable{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+   }
+header{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcDQbdfQepfnqBSeJKxbFKRrS6G_YJxu0vhw&usqp=CAU);
+    
+}
+.headerspace{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-evenly;
+}
+.headerspace:nth-child(2n){
+    background-color: aliceblue;
+}
+.headerspace:nth-child(2n+1){
+    background-color: aliceblue;
+}
+.vbsection , .fbsection{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 25px;
+}
+.vbimg , .fbimg , .bsimg1 , .bsimg2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bbp{
+    font-size: 40px;
+    border-right: 2px black solid;
+    display: inline-block;
+    
+}
+.bbsection{
+    border: 2px solid black;
+}
+.bbp2{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    
+}
